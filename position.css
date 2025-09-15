@@ -1,0 +1,54 @@
+.playground {
+  position: relative;
+  border: 2px solid black;
+  height: 300px;
+}
+.item-box-1 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: #0f0;
+}
+.item-box-2 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 20px;
+  left: 20px;
+  background: #f00;
+}
+.item-box-3 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 40px;
+  left: 40px;
+  background: #00f;
+}
+.item-box-4 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 60px;
+  left: 60px;
+  background: #0ff;
+  z-index: 4;
+}
+.item-box-5 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 80px;
+  left: 80px;
+  background: #f0f;
+  z-index: 3;
+}
+.item-box-6 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 100px;
+  left: 100px;
+  background: #ff0;
+  z-index: 2;
+}

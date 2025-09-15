@@ -1,0 +1,23 @@
+.calendar {
+  margin-top: 50px;
+}
+.table {
+  cursor: pointer;
+  width: 100%;
+}
+.table td {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.table td:hover {
+  background: #6b6b6b;
+  color: #fff;
+}
+.table tr:nth-child(odd) {
+  background: #a7a6a6;
+  color: #fff;
+}
+.table td:nth-child(6), .table td:nth-child(7) {
+  color: #000;
+  background: red;
+}
